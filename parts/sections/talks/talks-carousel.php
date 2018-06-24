@@ -29,7 +29,9 @@ $img_profile_lg = wp_get_attachment_image_src($talks[0]['profile_img'], 'full');
 				</div>  
 				<div class="col-2">
 					<div class="text">
+						<?php if (!empty($img_profile_lg)) { ?>
 						<figure class="img-sml" style="background-image: url(<?php echo $img_profile_lg[0]; ?>)"></figure>
+						<?php } ?>
 						<?php echo $talk['talk_description']; ?>
 					</div>
 					<?php if (!empty($talk_post)) { ?>

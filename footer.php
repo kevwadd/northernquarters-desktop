@@ -21,7 +21,7 @@
 						<?php } ?>
 					</div>
 					<div class="col-7">
-					<h3 class="caps">Tickets</h3>	
+					<h3 class="caps">Tickets &amp; Enquiries</h3>	
 						<div class="row">
 							<div class="col-4">
 								<a href="<?php echo $general_tickets_url; ?>" target="_blank" class="text-center yell-btn"><span><i class="fa fa-ticket"></i>General Tickets</span></a>
