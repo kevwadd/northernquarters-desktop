@@ -1,12 +1,5 @@
 <?php
 $talks = get_field('event_talks', 'options');
-/*
-$talk_post = $talks[0]['talk_post'];
-$img_main_lg = wp_get_attachment_image_src($talks[0]['main_img'], 'full');
-$img_main_sm = wp_get_attachment_image_src($talks[0]['main_img'], 'thumbnail');	
-$img_profile_lg = wp_get_attachment_image_src($talks[0]['profile_img'], 'full');
-*/
-//echo '<pre>';print_r($talks[0]['talk_post']);echo '</pre>';
 ?>
 
 <div id="talks-carousel" class="carousel slide carousel-fade" data-ride="carousel">

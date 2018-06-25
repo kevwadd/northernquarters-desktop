@@ -3,6 +3,7 @@ $event_address = get_field('gbl_event_address', 'options');
 $directions_link = get_field('directions_link', 'options');	
 ?>
 <div class="rule no-mag-bot"></div>
+<a name="location-map"></a>
 <section id="location-map" class="page-section">
 	<div class="container">
 	<h2 class="section-header no-mag-top"><span>Location</span></h2>
