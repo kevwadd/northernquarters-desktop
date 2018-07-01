@@ -6,6 +6,7 @@
 		$general_tickets_url = get_field('general_tickets_url', 'options');	
 		$talk_tickets_url = get_field('talk_tickets_url', 'options');
 		$stall_enquiry_email = get_field('stall_enquiry_email', 'options');	
+		$gbl_social = get_field('gbl_social_links', 'options');	
 		//echo '<pre>';print_r($privacy_page);echo '</pre>';
 		?>
 		<footer id="colophon" class="site-footer" role="contentinfo">
@@ -33,6 +34,12 @@
 								<a href="mailto:<?php echo $stall_enquiry_email; ?>" class="text-center yell-btn"><span><i class="fa fa-cubes"></i>Stand Enquiry</span></a>
 							</div>
 						</div>
+					</div>
+					<div class="col-1 rel">
+						<button id="backToTop" class="btn btn-light btn-block"><span class="sr-only">Back to top</span><i class="fa fa-angle-up"></i></button>
+						<?php foreach ($gbl_social as $social) { ?>
+						<a href="<?php echo $social['url']; ?>" target="_blank" class="btn btn-light btn-block social-link"><span class="sr-only"><?php echo $social['name']; ?></span><i class="fa <?php echo $social['icon']; ?>"></i></a>
+						<?php } ?>
 					</div>
 				</div>
 				<div class="row">

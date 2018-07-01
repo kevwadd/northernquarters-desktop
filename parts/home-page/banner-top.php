@@ -8,7 +8,7 @@ $event_date = get_field('event_date', 'options');
 $event_time_start = get_field('event_time_start', 'options');
 $event_time_end = get_field('event_time_end', 'options');
 ?>
-
+<a name="pg-top"></a>
 <section class="banner-top">
 	<div class="container">
 		<div class="row hp-banner no-gutters">

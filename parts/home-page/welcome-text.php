@@ -1,6 +1,6 @@
 <?php if ( have_posts() ) :?>
 <?php while ( have_posts() ) : the_post(); ?>
-<article class="">
+<article id="pg-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<div class="container">
 		<a name="about"></a>
 		<div class="main-txt">
