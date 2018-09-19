@@ -2,6 +2,8 @@
 
 <?php get_template_part( 'parts/home-page/banner', 'top' ); ?>
 
+<?php get_template_part( 'parts//sections/section', 'sponsors' ); ?>
+
 <?php get_template_part( 'parts/home-page/welcome', 'text' ); ?>
 
 <?php get_template_part( 'parts/sections/section', 'exhibitors' ); ?>
