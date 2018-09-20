@@ -2,6 +2,9 @@
 function nq_scripts() {
 	
 	wp_enqueue_style( 'bootstrap', 'https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css', null, '4.1.1', 'screen' );
+	wp_enqueue_style( 'animate', 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css', null, '3.7.0', 'screen' );
+	//https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js
+	
 	//wp_enqueue_style( 'fontawesome-css', 'https://use.fontawesome.com/releases/v5.0.13/css/all.css', null, '5.0.13', 'screen' );
 	wp_enqueue_style( 'bhn-style', get_stylesheet_directory_uri() . '/assets/css/styles.css', null,  filemtime( get_stylesheet_directory().'/assets/css/styles.css' ), 'screen'  );
 	

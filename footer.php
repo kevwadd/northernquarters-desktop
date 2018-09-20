@@ -1,4 +1,7 @@
-
+		<?php get_template_part( 'parts/sections/section', 'form' ); ?>
+		
+		<?php get_template_part( 'parts/sections/section', 'location' ); ?>
+		
 		</main><!-- #content -->
 		<?php
 		$gbl_contacts = get_field('gbl_contacts', 'options');	
