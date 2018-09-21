@@ -26,7 +26,7 @@ $event_time_end = get_field('event_time_end', 'options');
 					<a href="<?php echo $general_tickets_url; ?>" class="text-center yell-btn" target="_blank"><span><i class="fa fa-ticket"></i>General Tickets</span></a>
 				</div>
 				<div class="links blue-btn">
-					<a href="<?php echo $talk_tickets_url; ?>" class="text-center blue-btn" target="_blank"><span><i class="fa fa-comment"></i>Talk Tickets</span></a>
+					<a href="<?php echo $talk_tickets_url; ?>" class="text-center blue-btn" target="_blank"><span><i class="fa fa-comment"></i>Talk & Workshop Tickets</span></a>
 				</div>
 				<div class="links yell-btn">
 					<a href="mailto:<?php echo $stall_enquiry_email; ?>" class="text-center yell-btn"><span><i class="fa fa-cubes"></i>Stand Enquiry</span></a>
