@@ -21,15 +21,16 @@ $event_time_end = get_field('event_time_end', 'options');
 					</div>
 				</div>
 				</div>
-			<div class="col-2 d-flex flex-column align-items-start rel">
-				<div class="links">
-					<a href="<?php echo $general_tickets_url; ?>" class="text-center yell-btn" target="_blank"><span><i class="fa fa-ticket"></i>General Tickets</span></a>
+			<div class="col-2 d-flex flex-column align-content-stretch rel">
+				<div class="links align-self-stretch">
+					<a href="<?php echo $general_tickets_url; ?>" class="text-center yell-btn" target="_blank">
+						<span><i class="fa fa-ticket"></i><small>Sat 17th Nov</small><br>Workshop Tickets</span>
+					</a>
 				</div>
-				<div class="links blue-btn">
-					<a href="<?php echo $talk_tickets_url; ?>" class="text-center blue-btn" target="_blank"><span><i class="fa fa-comment"></i>Talk & Workshop Tickets</span></a>
-				</div>
-				<div class="links yell-btn">
-					<a href="mailto:<?php echo $stall_enquiry_email; ?>" class="text-center yell-btn"><span><i class="fa fa-cubes"></i>Stand Enquiry</span></a>
+				<div class="links align-self-stretch">
+					<a href="<?php echo $talk_tickets_url; ?>" class="text-center blue-btn" target="_blank">
+						<span><i class="fa fa-ticket"></i><small>Sun 18th Nov</small><br>General admission & Talk Tickets</span>
+					</a>
 				</div>
 			</div>
 		</div>
