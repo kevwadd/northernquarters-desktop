@@ -10,6 +10,8 @@
 
 <?php get_template_part( 'parts/sections/section', 'talks' ); ?>
 
+<?php get_template_part( 'parts/sections/section', 'workshops' ); ?>
+
 <?php //get_template_part( 'parts/sections/section', 'news' ); ?>
 
 <?php get_footer(); ?>
