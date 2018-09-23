@@ -15,9 +15,14 @@ $event_time_end = get_field('event_time_end', 'options');
 			<div class="col-10 rel">
 				<div class="img">
 					<div class="event-info text-center">
+						<time><?php echo date('jS F Y', strtotime($event_date. ' - 1 day')); ?><br>10:00am - <?php echo $event_time_end; ?></time>
+						<h2><?php bloginfo('name'); ?><br>at the Biscuit Factory</h2>
+						<p>Gemini House - Newcastle</p>
+					</div>
+					<div class="event-info text-center">
 						<time><?php echo date('jS F Y', strtotime($event_date)); ?><br><?php echo $event_time_start; ?> - <?php echo $event_time_end; ?></time>
-						<h2><?php echo $event_venue; ?><br><?php echo $event_place; ?></h2>
-						<p>The destination in the North East for all things interiors</p>
+						<h2><?php bloginfo('name'); ?><br><?php bloginfo('description'); ?></h2>
+						<p><?php echo $event_venue; ?> - <?php echo $event_place; ?></p>
 					</div>
 				</div>
 				</div>
