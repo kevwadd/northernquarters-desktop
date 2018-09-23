@@ -27,14 +27,15 @@
 					<div class="col-7">
 					<h3 class="caps">Tickets &amp; Enquiries</h3>	
 						<div class="row">
-							<div class="col-4">
-								<a href="<?php echo $general_tickets_url; ?>" target="_blank" class="text-center yell-btn"><span><i class="fa fa-ticket"></i>General Tickets</span></a>
+							<div class="col-6">
+								<a href="<?php echo $general_tickets_url; ?>" target="_blank" class="text-center yell-btn">
+									<span><i class="fa fa-ticket"></i><small>Sat 17th Nov</small><br>Workshop Tickets</span>
+								</a>
 							</div>
-							<div class="col-4">
-								<a href="<?php echo $talk_tickets_url; ?>" target="_blank" class="text-center yell-btn"><span><i class="fa fa-comment"></i>Talk Tickets</span></a>
-							</div>
-							<div class="col-4">
-								<a href="mailto:<?php echo $stall_enquiry_email; ?>" class="text-center yell-btn"><span><i class="fa fa-cubes"></i>Stand Enquiry</span></a>
+							<div class="col-6">
+								<a href="<?php echo $talk_tickets_url; ?>" target="_blank" class="text-center yell-btn">
+									<span><i class="fa fa-ticket"></i><small>Sun 18th Nov</small><br>General admission<br>& Talk Tickets</span>
+								</a>
 							</div>
 						</div>
 					</div>
