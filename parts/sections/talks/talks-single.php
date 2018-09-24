@@ -12,7 +12,7 @@ $img_profile_lg = wp_get_attachment_image_src($talks[0]['profile_img'], 'full');
 		<ul class="list-inline">
 			<li class="list-inline">
 			<?php if (empty($talks[0]['talk_url'])) { ?>
-			<span class="talk-name"><i class="fa fa-external-link"></i><?php echo $talks[0]['talk_name']; ?></span>
+			<span class="talk-name"><?php echo $talks[0]['talk_name']; ?></span>
 			<?php } else { ?>
 			<a href="<?php echo $talks[0]['talk_url']; ?>" target="_blank" class="website_link"><i class="fa fa-external-link"></i><?php echo $talks[0]['talk_name']; ?></a>
 			<?php } ?>
