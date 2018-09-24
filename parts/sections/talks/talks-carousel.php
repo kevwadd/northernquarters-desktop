@@ -13,7 +13,13 @@ $talks = get_field('event_talks', 'options');
 		<div class="talks-item carousel-item<?php echo ($k == 0) ? ' active':''; ?>">
 			<div class="talker-info">
 				<ul class="list-inline">
-					<li class="list-inline"><a href="<?php echo $talk['talk_url']; ?>" target="_blank" class="website_link"><i class="fa fa-external-link"></i><?php echo $talk['talk_name']; ?></a></li>
+					<li class="list-inline">
+						<?php if (empty($talk['talk_url'])) { ?>
+						<span class="talk-name"><i class="fa fa-external-link"></i><?php echo $talk['talk_name']; ?></span>
+						<?php } else { ?>
+						<a href="<?php echo $talk['talk_url']; ?>" target="_blank" class="website_link"><i class="fa fa-external-link"></i><?php echo $talk['talk_name']; ?></a>
+						<?php } ?>
+					</li>
 				</ul>
 			</div>
 			<div class="row no-gutters">
