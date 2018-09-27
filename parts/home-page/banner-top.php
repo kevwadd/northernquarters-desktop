@@ -17,7 +17,7 @@ $event_time_end = get_field('event_time_end', 'options');
 					<div class="event-info text-center">
 						<time><?php echo date('jS F Y', strtotime($event_date. ' - 1 day')); ?><br>10:00am - <?php echo $event_time_end; ?></time>
 						<h2><?php bloginfo('name'); ?><br>at the Biscuit Factory</h2>
-						<p>Gemini House - Newcastle</p>
+						<p>Newcastle</p>
 					</div>
 					<div class="event-info text-center">
 						<time><?php echo date('jS F Y', strtotime($event_date)); ?><br><?php echo $event_time_start; ?> - <?php echo $event_time_end; ?></time>
