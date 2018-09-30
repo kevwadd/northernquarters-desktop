@@ -11,7 +11,7 @@ Template Name: Directions page template
 $feat_img = get_the_post_thumbnail_url();	
 //echo '<pre>';print_r($event_date);echo '</pre>';
 ?>
-<a name="pg-top"></a>
+<a id="pg-top" name="pg-top"></a>
 <section class="banner-top">
 	<div class="container slim-page-banner">
 		<div class="img" style="background-image: url(<?php echo $feat_img; ?>)">

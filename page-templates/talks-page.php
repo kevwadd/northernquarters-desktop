@@ -12,7 +12,7 @@ $feat_img = get_the_post_thumbnail_url();
 $event_date = get_field('event_date', 'options');	
 //echo '<pre>';print_r($event_date);echo '</pre>';
 ?>
-<a name="pg-top"></a>
+<a id="pg-top" name="pg-top"></a>
 <section class="banner-top">
 	<div class="container page-banner">
 		<div class="img" style="background-image: url(<?php echo $feat_img; ?>)">
