@@ -29,14 +29,14 @@ $event_time_end = get_field('event_time_end', 'options');
 			<div class="col-6">
 			<div class="links link-left">
 				<a href="<?php echo $general_tickets_url; ?>" class="text-center yell-btn" target="_blank">
-					<span><i class="fa fa-ticket"></i><small>Sat 17th Nov</small><br>Workshop Tickets</span>
+					<span><i class="fa fa-ticket"></i><small><?php echo date('jS F', strtotime($event_date. ' - 1 day')); ?></small><br>Workshop Tickets</span>
 				</a>
 			</div>
 			</div>
 			<div class="col-6">
 			<div class="links link-right">
 				<a href="<?php echo $talk_tickets_url; ?>" class="text-center blue-btn" target="_blank">
-					<span><i class="fa fa-ticket"></i><small>Sun 18th Nov</small><br>General admission & Talk Tickets</span>
+					<span><i class="fa fa-ticket"></i><small><?php echo date('jS F', strtotime($event_date)); ?></small><br>General admission & Talk Tickets</span>
 				</a>
 			</div>
 			</div>
