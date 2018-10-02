@@ -59,6 +59,8 @@
 			</div>
 		</footer><!-- #colophon -->
 		
+		<?php get_template_part( 'parts/global/tickets', 'sidebtns' ); ?>
+		
 	</div><!-- #page -->
 	
 <?php wp_footer(); ?>

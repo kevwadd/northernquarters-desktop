@@ -25,7 +25,7 @@ $event_time_end = get_field('event_time_end', 'options');
 				<p>Regional Artisan stalls ~ Talk with the Professionals</p>
 			</div>
 		</div>
-		<div class="row">
+		<div class="row ticket-btns">
 			<div class="col-6">
 			<div class="links link-left">
 				<a href="<?php echo $general_tickets_url; ?>" class="text-center yell-btn" target="_blank">
